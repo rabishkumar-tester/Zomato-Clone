@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*This index.css is the global css that will be applied for the whole index.html and needed very often*/
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html {
+    font-family: "Open Sans" , sans-serif;
+    font-size: 10px;   /*this is universal font-size the rem will take font size relative to it*/
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin : 20px;
+}
+

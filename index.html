@@ -6,8 +6,51 @@
     <title>Zomato</title>
     <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/top.css">
+		<script src="https://unpkg.com/feather-icons"></script>
 </head>
 <body>
-    
+	<header>
+		<nav> <!--Semantic Tag-->
+			<div class="nav-left">
+				<div class="nav-element"><i data-feather="smartphone"></i><a href="#">Get the app</a>
+				</div>
+			</div>
+			<div class="nav-right">
+				<div class="nav-element"><a href="#">Investor Relations</a></div>
+				<div class="nav-element"><a href="#">Add restaurant</a></div>
+				<div class="nav-element"><a href="#">Log in</a></div>
+				<div class="nav-element"><a href="#">Sign up</a></div>
+			</div>
+		</nav>
+	</header>
+	
+	<main>
+		<section class="top">
+			<img src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png" alt="bg-image" class="bg-image" />
+			<div class="center-content">
+				<img src="./assets/images/logo.png" alt="zomato logo" class="main-logo">
+				<h1>Discover the best food & drinks in <span class="city">Ranchi</span></h1>
+				<div class="search-container">
+					<div class="location">
+						<i data-feather="map-pin"></i>
+						<input type="text" placeholder="Ranchi,Jharkhand" class="location-input">
+						<i data-feather="chevron-down"></i>
+					</div>
+					<div class="line">
+					</div>
+					<div class="search">
+						<i data-feather="search"></i>
+						<input class="search-box" placeholder="Search for restaurant, cuisine or a dish" value="">
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<script>
+		feather.replace();
+	</script>
 </body>
 </html>

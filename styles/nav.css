@@ -1,0 +1,48 @@
+header {
+    width: 100%;
+    position: absolute;
+}
+
+nav {
+    width: 80%;
+    display: flex;
+    font-weight: 200;
+    flex-wrap: nowrap;
+    background: transparent;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto; /*margin : auto does is after nav takes its specified width margin auto will distribute remaining spaces to left and right and center the nav horizontally.*** */
+    user-select: none;
+    padding: 1.7rem 0px; /*17px padding top and bottm and 0px left right*/
+    color : white;
+}
+
+nav .nav-element {
+    color: white;
+    padding-bottom: 1rem;
+    /*Not necessary just because added because of extra bit of padding*/
+    border-style: solid;
+    border-color: transparent;
+    border-width: 0px 0px 0.2rem; /*top bottom (left right)*/
+    display: flex;
+    align-items: center;
+    gap : 5px;
+}
+
+
+nav .nav-element a {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+nav .nav-right {
+    display: flex;
+}
+
+nav .nav-right .nav-element a{
+    margin-right: 2rem;
+    font-size: 1.8rem;
+    font-weight: 200;
+    padding: 0.8rem;
+}
