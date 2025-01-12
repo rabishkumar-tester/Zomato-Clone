@@ -1,6 +1,8 @@
 header {
     width: 100%;
     position: absolute;
+    z-index: 1;
+
 }
 
 nav {
@@ -12,9 +14,10 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto; /*margin : auto does is after nav takes its specified width margin auto will distribute remaining spaces to left and right and center the nav horizontally.*** */
-    user-select: none;
+    /* user-select: none; */
     padding: 1.7rem 0px; /*17px padding top and bottm and 0px left right*/
     color : white;
+
 }
 
 nav .nav-element {
@@ -27,6 +30,7 @@ nav .nav-element {
     display: flex;
     align-items: center;
     gap : 5px;
+    cursor: pointer;
 }
 
 
@@ -45,4 +49,5 @@ nav .nav-right .nav-element a{
     font-size: 1.8rem;
     font-weight: 200;
     padding: 0.8rem;
+
 }

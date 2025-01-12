@@ -1,0 +1,68 @@
+
+
+
+.options {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 7rem;
+}
+
+.option {
+    width: 100%;
+    flex: 1;
+    height: 24rem;
+    overflow: hidden;
+    border-radius: 1.2rem;
+    position: relative;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 1.2rem;
+    z-index: -1;
+    position: relative;
+    bottom: 2rem;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    padding: 1rem 2rem 1.6rem;
+    border-bottom-right-radius: 1.2rem;
+    border-bottom-left-radius: 1.2rem;
+    border: 1px solid rgb(232,232,232);
+
+}
+
+.info-title {
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.2rem;
+}
+
+.info-description{
+    color: rgb(79,79,79);
+    font-weight: 400;
+    /* To have ellipsis */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* =================== */
+    line-height: 1.5;
+    margin: 0px;
+    font-size: 1.6rem;
+}

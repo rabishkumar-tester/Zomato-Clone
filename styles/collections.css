@@ -1,0 +1,89 @@
+
+
+.heading-2 {
+    font-weight: 500;
+    font-size: 3.6rem;
+}
+
+.heading-6 {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.collection-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.see-more{
+    font-weight: 300;
+    font-size: 1.6rem;
+    pad: 1rem;
+    color: rgb(255,126,139);
+    display: flex;
+    align-items: center;
+}
+
+.collection-list {
+    display: flex;
+    margin-top: 3rem;
+    gap: 10px;
+    margin-bottom: 10rem;
+}
+
+.collection {
+    width: 100%;
+    position: relative;
+    max-width: 25%;
+    height: 32rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.collection-image{
+    height: 32rem;
+}
+
+.collection-image img {
+    max-width: 100%;
+    height: 32rem;
+    object-fit: cover;
+    object-position: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(
+        0deg,
+        rgba(0 , 0 , 0 , 0.9) 0%,
+        rgba(0 , 0 , 0 , 0.0) 50%,
+        rgba(0 , 0 , 0 , 0.05) 85%
+    );
+}
+
+.overlay-info {
+    color: white;
+    position: absolute;
+    bottom: 0;
+    line-height: 1.5;
+    padding : 0px 1.6rem;
+    font-size: 1.8rem;
+    width: 100%;
+    overflow : hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.places {
+    font-size: 1.4rem;
+    margin: 0.3rem 0px 1rem;
+    display: flex;
+    align-items: center;
+}
