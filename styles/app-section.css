@@ -1,0 +1,137 @@
+.app-section {
+    background-color: rgb(255,251,247);
+    width: 100%; /*auto matic*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.app-section  .app-content {
+    display: flex;
+    align-items: start;
+    gap: 3rem;
+
+}
+
+.app-content .app-info {
+    margin-top: 4rem;
+    width: 50%;
+}
+
+
+.app-section .phone-image {
+    position: relative;
+    max-width: 100%;
+    width: 42rem;
+    height: 50rem;
+    overflow: hidden;
+}
+
+.app-section .phone-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.app-heading {
+    color: rgb(28,28,28);
+    margin: 0px 0px 1.5rem;
+    font-weight: 500;
+    font-size: 4rem;
+    line-height: 1.6;
+}
+
+
+.app-section .app-description {
+    font-size: inherit;
+    margin: 0px 0px 2.5rem;
+    color: rgb(54,54,54);
+    width: 100%;
+    line-height: 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.app-options {
+    justify-content: space-between;
+    width: 50%;
+
+}
+
+.app-option {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.6rem;
+    height: 4rem;
+}
+
+
+input[type="radio"]{
+    accent-color: rgb(239,79,95);
+    width: 2rem;
+    height: 2rem;
+}
+
+
+.email-input {
+    /* display flex is already given */
+    margin-bottom: 1rem;
+    gap: 10px;
+}
+
+
+input[type="email"]{
+    padding: 1.3rem 1.2rem;
+    height: 4.8rem;
+    background-color: white;
+    border: 0.1rem solid rgb(207,207,207);
+    font-size: 18px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0.6rem;
+    color: rgb(28,28,28);
+    font-weight: 200;
+}
+
+.email-input button {
+    background-color: rgb(239,79,95);
+    color: white;
+    border: none;
+    min-width: 15rem;
+    border-radius: 0.6rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    padding: 0 1.6rem;
+    transition: all 0.2s;
+}
+
+.email-input button:hover {
+    background-color: rgb(242,60,70);
+}
+
+.store .store-description {
+    line-height: 1.5;
+    margin: 0px 0px 1.5rem;
+    color: rgb(156,156,156);
+    font-size: 1.4rem;
+
+}
+
+
+.store .store-buttons {
+    gap: 2rem;
+}
+.store .store-buttons img {
+    object-fit: cover;
+    position: relative;
+    max-width: 100%;
+    width: 13.7rem;
+    height: 4rem;
+    cursor: pointer;
+}
+
+

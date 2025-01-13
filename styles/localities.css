@@ -1,0 +1,68 @@
+
+.localities .title {
+    font-size: 3.6rem;
+    font-weight: 200;
+    margin: 0px;
+    color: rgb(54,54,54);
+    margin-bottom: 4rem;
+}
+
+
+.localities .title .city {
+    font-weight: 500;
+}
+
+.localities-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    margin-bottom: 10rem;
+
+}
+
+.locality {
+    padding: 1.2rem 1.5rem;
+    border-radius: 0.8rem;
+    background-color: rgb(255,255,255);
+    border: 1px solid rgb(232,232,232);
+    margin-bottom: 0.5rem;
+    display: flex; /*aleardy in the row class added*/
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 1.42623px 2.852446px rgba(28,28,28,0.08);
+    width: 30%;
+    font-size: 1.6rem;
+}
+
+.locality-title {
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(28,28,38);
+    margin: 0px 0px 0.5rem;
+}
+
+.locality .places {
+    font-size: inherit;
+    line-height: 1.5;
+    margin: 0px;
+    color: rgb(54,54,54);
+    font-weight: 200;
+}
+
+.locality:hover {
+    box-shadow: 0px 4px 8px rgba(28,28,28,0.08);
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+
