@@ -121,3 +121,50 @@ main .search-container .search input {
     font-size: 1.4rem;
 }
 
+
+@media (max-width: 800px) {
+    main .main-logo {
+        width: 16rem;
+        height: 3rem;
+    }
+
+    main .top .search-container {
+        flex-direction: column;
+        width: calc(100% - 2.4rem);
+        background-color: white;
+
+    }
+
+    main .top .search-container .location {
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 1.2rem;
+        margin-bottom: 0.8rem;
+        gap: 2rem;
+        height: 5rem;
+    }
+
+    main .top .search-container .location svg {
+        width: fit-content !important;
+    }
+    main .top .search-container .location-input {
+        flex: 1;
+    }
+
+    main .top .search-container .search {
+        margin-top: 1.8rem;
+        background-color: white;
+        padding: 1.5rem 1rem;
+        width: 100%;
+        justify-content: space-between;
+        height: 5rem;
+    }
+
+    main .search-container .search svg{
+        width: fit-content !important;
+    }
+
+    main .search-container .search input {
+        margin-left: 1.5rem;
+    }
+}

@@ -40,6 +40,7 @@
     height: 32rem;
     border-radius: 1rem;
     overflow: hidden;
+    flex-wrap: wrap;
 }
 
 .collection-image{
@@ -86,4 +87,35 @@
     margin: 0.3rem 0px 1rem;
     display: flex;
     align-items: center;
+}
+
+@media (max-width: 800px) {
+    .see-more {
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+    .heading-2 {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    .collection-description .heading-6 {
+        font-size: 1.2rem;
+    }
+
+
+    .collection-list {
+        flex-wrap: wrap;
+    }
+
+    .collection {
+        max-width: 45%;
+        height: 17.7rem;
+    }
+
+
 }

@@ -51,3 +51,35 @@ nav .nav-right .nav-element a{
     padding: 0.8rem;
 
 }
+
+.user-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 100%;
+    border: 1px solid rgb(207,207,207);
+    align-items: center;
+    justify-content: center;
+    color: rgb(239,79,95);
+    display: none;
+}
+
+@media (max-width: 800px) {
+    nav {
+        justify-content: flex-end;
+        padding: 0 1rem;
+        height: 5.6rem;
+        width: 100%;
+    }
+    
+    .user-icon {
+        display: flex;
+    }
+
+    .nav-left {
+        display: none !important;
+    }
+
+    .nav-right {
+        display: none !important;
+    }
+}

@@ -135,3 +135,26 @@ input[type="email"]{
 }
 
 
+@media (max-width: 800px) {
+
+    .app-section {
+        width: 100% ;
+        padding: 0 1rem;
+    }
+
+    .app-section .app-content {
+        margin-top: 7.5rem;
+        max-width: 42.4rem;
+    }
+
+    .app-section .app-info {
+        width: 100%;
+    }
+    .phone-image {
+        display: none;
+    }
+
+
+}
+
+

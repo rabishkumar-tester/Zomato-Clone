@@ -66,3 +66,29 @@
     margin: 0px;
     font-size: 1.6rem;
 }
+
+@media (max-width: 800px) {
+    .options {
+        flex-wrap: wrap;
+
+    }
+
+    .option {
+        max-width: 49%;
+        flex: auto;
+        height: 20rem;
+    }
+
+    .info-title {
+        font-size: 1.4rem;
+        line-height: 1.2;
+    }
+
+    .info-description {
+        font-size: 1.2rem;
+        font-weight: 200;
+    }
+
+
+
+}

@@ -64,5 +64,24 @@
 }
 
 
+@media (max-width: 800px){
+    .localities-list{
+        flex-direction: column;
+    }
+
+    .locality {
+        width: 100%;
+    }
+
+    .localities .title {
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+        margin-bottom: 2rem;
+    }
+
+    
+}
+
 
 

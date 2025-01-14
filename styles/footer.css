@@ -126,6 +126,10 @@ footer {
     gap: 5px;
 }
 
+
+.footer-links ul li:hover {
+    color: black;
+}
 footer hr {
     margin-top : 5rem;
     border-top: solid 1px rgb(207,207,207);
@@ -136,4 +140,36 @@ footer hr {
     color: rgb(79,79,79);
     line-height: 1.7rem;
     margin-top: 2.3rem;
+}
+
+
+
+@media (max-width: 800px) {
+    .footer-data {
+        padding: 4.8rem 2.4rem 2.2rem;
+    }
+
+    .socials {
+        display: none;
+    }
+
+    footer .top-section {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer .top-section .footer-logo{
+        margin-bottom: 3rem ;
+    }
+
+    footer .row {
+        flex-wrap: wrap;
+    }
+
+    .middle-section .footer-links {
+        max-width: 50%;
+        margin-bottom: 3rem;
+        font-size: 1.6rem;
+    }
+    
 }

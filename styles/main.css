@@ -6,3 +6,14 @@
     position: relative;
 }
 
+@media (max-width: 800px) {
+    .main-body {
+        padding: 0px 2.4rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .main-body {
+        padding: 0px 1rem;
+    }
+}
