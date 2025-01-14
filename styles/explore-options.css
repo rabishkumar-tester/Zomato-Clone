@@ -1,5 +1,6 @@
 .explore-options {
-    width: 110rem;
+    width: 100%;
+    max-width: 110rem;
     margin:auto;
     padding: 5rem 0;
 }
