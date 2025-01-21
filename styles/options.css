@@ -74,7 +74,7 @@
     }
 
     .option {
-        max-width: 49%;
+        max-width: 45%;
         flex: auto;
         height: 20rem;
     }
